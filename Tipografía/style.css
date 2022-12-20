@@ -1,0 +1,78 @@
+main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div{
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 20%;
+}
+
+@font-face {
+    font-family: Anton;
+    src: url(../Tipografía/Fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mono;
+    src: url(../Tipografía/Fonts/SyneMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../Tipografía/Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: ROBOTOP;
+    src: url(../Tipografía/Fonts/ROBOTOP.ttf);
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(../Tipografía/Fonts/RubikSprayPaint-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(../Tipografía/Fonts/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Kenia;
+    src: url(../Tipografía/Fonts/Kenia-Regular.ttf);
+}
+
+#uno{
+    font-family: Anton;
+}
+
+#dos{
+    font-family: Mono;
+}
+
+#tres{
+    font-family: Roboto;
+}
+
+#cuatro{
+    font-family: ROBOTOP;
+}
+
+#cinco{
+    font-family: Rubik;
+}
+
+#seis{
+    font-family: Lora;
+}
+
+#siete{
+    font-family: Kenia;
+}

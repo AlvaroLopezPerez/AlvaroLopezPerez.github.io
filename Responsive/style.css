@@ -1,0 +1,37 @@
+div{
+    width: 50%;
+    height: 90vh;
+    background-color: rgb(255, 207, 255);
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width:576px){
+    div{
+        width: 90%;
+        background-color: rgb(255, 124, 255);
+    }
+}
+
+/*Medium devices (landscape phones, 768px and up)*/
+@media (min-width:768px){
+    div{
+        width: 90%;
+        background-color: rgb(255, 0, 255);
+    }
+}
+
+/*Large devices (landscape phones, 992px and up)*/
+@media (min-width:992px){
+    div{
+        width: 90%;
+        background-color: rgb(179, 0, 179);
+    }
+}
+
+/*Extra large devices (landscape phones, 1200px and up)*/
+@media (min-width:1200px){
+    div{
+        width: 90%;
+        background-color: rgb(96, 0, 96);
+    }
+}

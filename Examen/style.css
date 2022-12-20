@@ -1,0 +1,85 @@
+body {
+    background-image: url("Imagenes/rosa.jpg");
+    background-size: cover;
+}
+
+header {
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+header, header nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    width: 25px;
+    margin-right: 10px;
+}
+
+ul{
+    float: left;
+}
+
+.dni{
+    color: red;
+    margin-left: 0;
+}
+
+main {
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.Boton {
+    background-color:blue;
+    color: white;
+    width: 20%;
+    height: 30pt;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 10px;
+    border: none;
+}
+
+main img{
+    padding-bottom: 10%;
+    margin-left: 200px;
+}
+
+.etiqueta{
+    color: white;
+    align-items: center;
+    padding-right: 0;
+}

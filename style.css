@@ -43,10 +43,11 @@ nav{
     padding: 15px 20px;
     color: white;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu-horizontal > li:hover{
-    background-color: red;
+    background-color: rgb(151, 24, 24);
 }
 
 .menu-vertical{
